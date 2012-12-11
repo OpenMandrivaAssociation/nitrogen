@@ -47,3 +47,41 @@ EOF
 %{_datadir}/applications/%{name}.desktop
 %{_mandir}/man1/%{name}.1*
 
+
+
+%changelog
+* Tue May 29 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.5.2-2
++ Revision: 801182
+- imported package nitrogen
+
+
+* Wed Jan 25 2012 KDulcimer <kdulcimer@unity-linux.org> 1.5.2-2
+- Rebuild
+- Bring spec up to spec
+
+* Sat Sep 17 2011 KDulcimer <kdulcimer@unity-linux.org> 1.5.2-1
+- 1.5.2
+
+* Mon May 31 2010 KDulcimer <kdulcimer@unity-linux.org> 1.5.1-2
+- fix desktop file
+
+* Tue Feb 09 2010 KDulcimer <kdulcimer@unity-linux.org> 1.5.1-1
+- 1.5.1
+
+* Sat Jan 23 2010 KDulcimer <kdulcimer@unity-linux.org> 1.5-1
+- 1.5
+
+* Mon May 18 2009 Gianvacca <gianvacca@unity-linux.org> 1.4-1unity2009
+- New version for Unity
+
+* Thu Jan 10 2008 KDulcimer <kdulcimer@gmail.com> 1.2-1tinyme2008
+- 1.2
+
+* Tue Nov 27 2007 KDulcimer <kdulcimer@gmail.com> 1.0-3pclos_tinyme2007
+- Adjusted Build and BuildRequires
+
+* Thu Nov 15 2007 KDulcimer <kdulcimer@gmail.com> 1.0-2pclos_tinyme2007
+- Added menu entry
+
+* Tue Oct 2 2007 KDulcimer <kdulcimer@gmail.com> 1.0-1pclos_tinyme2007
+- Build for TinyMe/PCLinuxOS 2007
