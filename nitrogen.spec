@@ -1,7 +1,7 @@
 Summary:	A wallpaper setter
 Name:		nitrogen
 Version:	1.5.2
-Release:	2
+Release:	3
 License:	GPLv2
 Group:		Graphical desktop/Other
 URL:		http://projects.l3ib.org/nitrogen/
