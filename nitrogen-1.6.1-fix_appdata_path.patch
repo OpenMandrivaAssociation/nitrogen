@@ -1,0 +1,11 @@
+--- a/data/Makefile.am
++++ b/data/Makefile.am
+@@ -1,6 +1,6 @@
+ SUBDIRS = icons
+ 
+-appdatadir = $(datarootdir)/appdata
++appdatadir = $(datarootdir)/metainfo
+ desktopdir = $(datadir)/applications
+ desktop_DATA = nitrogen.desktop
+ appdata_DATA = nitrogen.appdata.xml
+
