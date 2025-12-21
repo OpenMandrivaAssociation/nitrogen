@@ -8,6 +8,11 @@ URL:		https://github.com/l3ib/nitrogen
 Source0:	https://github.com/l3ib/%{name}/releases/download/%{version}/%{name}-%{version}.tar.gz
 Patch0:		nitrogen-1.6.1-fix_appdata_path.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:	pkgconfig(gtk+-2.0)
